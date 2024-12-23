@@ -1,0 +1,24 @@
+/* Logo */
+.logo-round {
+    border-radius: 50%; /* Makes the image round */
+    border: 2px solid #fff; /* Optional: Add a white border */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+    object-fit: cover; /* Ensures the image fits the circle */
+  }
+  
+/* slide */
+.carousel-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust to fit the screen height */
+    background-color: #000; /* Black background for extra space */
+}
+
+.carousel-item img.carousel-image {
+    width: auto;
+    height: 100%; /* Ensure the image fits the height of the container */
+    object-fit: contain; /* Keep the entire image visible without cropping */
+    margin: auto; /* Center the image */
+    display: block;
+}
